@@ -1,0 +1,15 @@
+<view class="container" style="padding-top:{{statusBarHeight+titleBarHeight}}px">
+  <view class="header">
+    <view class="status-bar" style="height:{{statusBarHeight}}px"></view>
+    <view class="title-bar" style="height:{{titleBarHeight}}px">
+      <view class="back-btn">返回</view>
+      <view>标题</view>
+      <view class="tablet">搜</view>
+    </view>
+  </view>
+  <view class="body">
+    <view class="scroll-content">
+      <view class="item" wx:for="{{50}}" wx:key="{{index}}">{{item}}</view>
+    </view>
+  </view>
+</view>

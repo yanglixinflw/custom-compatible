@@ -1,0 +1,50 @@
+page {
+  height: 100%;
+}
+
+/* .container {
+  box-sizing: border-box;
+  height: 100%;
+  background: rgba(0, 255, 0, 0.1);
+} */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ff5400;
+}
+
+.status-bar {
+  background: rgba(255, 0, 0, 0.1);
+}
+
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-bar .back-btn, .title-bar .tablet {
+  width: 116px; /* 保持一致使标题居中 */
+}
+
+.title-bar .tablet { /* 可优化 */
+  /* box-sizing: border-box; */
+  /* padding-left: 1em; */
+}
+
+.body {
+  height: 100%;
+  overflow: auto;
+}
+
+.scroll-content {
+  text-align: center;
+}
+
+.scroll-content .item {
+  height: 60rpx;
+  line-height: 60rpx;
+  border-bottom: 1rpx solid #eee;
+}
